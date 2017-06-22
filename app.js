@@ -1,4 +1,4 @@
-let cover = '';
+var cover;
 function setup(){
   createCanvas(1024, 1024);
   rectMode(CENTER);
