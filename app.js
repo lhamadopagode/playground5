@@ -1,4 +1,4 @@
-
+let cover = '';
 function setup(){
   createCanvas(1024, 1024);
   rectMode(CENTER);
@@ -9,7 +9,7 @@ function setup(){
 //   console.log(myFont);
 // } 
 function getImage(){
-  var cover = loadImage("cover.jpg");
+  cover = loadImage('cover.jpg');
 }
 // function getPhotos(){
 //   $.ajax({
@@ -24,7 +24,7 @@ function getImage(){
 // }
 
 function title(){
-  let coverName = "Cigarro e Solidão.";
+  let coverName = 'Cigarro e Solidão.';
   push();
   fill(255,255,255);
   textSize(122);
@@ -40,5 +40,6 @@ function particles (){
 
 function draw(){
   background(35, 35, 35);
+  image(cover, 0,0); 
   title();
 }
