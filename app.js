@@ -8,7 +8,9 @@ function setup(){
 //   myFont = loadFont('https://github.com/google/fonts/blob/master/ofl/montserrat/Montserrat-Regular.ttf?raw=true');
 //   console.log(myFont);
 // } 
-
+function getImage(){
+  var cover = loadImage("cover.jpg");
+}
 // function getPhotos(){
 //   $.ajax({
 //     url: 'https://api.unsplash.com/photos/?client_id= ',
